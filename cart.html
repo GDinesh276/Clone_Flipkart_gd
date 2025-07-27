@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Cart</title>
+    <base target="_self">
+    <link rel="stylesheet" href="cart.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">Flipkart</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands and more">
+                <button>Search</button>
+            </div>
+            <a href="./login.html"><button class="login-btn">Login</button></a>
+            <a href="#" class="cart-link">Cart</a>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <div class="cart-header">
+            <div class="cart-title">My Cart <span class="cart-count">(2 items)</span></div>
+        </div>
+        
+        <div class="cart-items">
+            <!-- Item 1 -->
+            <div class="cart-item">
+                <img src="./Images/samsung.webp" alt="Phone" class="item-image">
+                <div class="item-details">
+                    <h3 class="item-title">Samsung Galaxy S23 5G (Green, 256 GB)</h3>
+                    <p class="item-seller">Seller: RetailNet</p>
+                    <p class="item-price">₹74,999 <span class="item-original-price">₹79,999</span> <span class="item-discount">7% off</span></p>
+                    <div class="item-actions">
+                        <button class="remove-btn">REMOVE</button>
+                        <button class="save-btn">SAVE FOR LATER</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="cart-item">
+                <img src="./Images/boat.webp" alt="Headphones" class="item-image">
+                <div class="item-details">
+                    <h3 class="item-title">boAt Rockerz 450 Bluetooth Headset</h3>
+                    <p class="item-seller">Seller: Cloudtail India</p>
+                    <p class="item-price">₹1,299 <span class="item-original-price">₹3,990</span> <span class="item-discount">67% off</span></p>
+                    <div class="item-actions">
+                        <button class="remove-btn">REMOVE</button>
+                        <button class="save-btn">SAVE FOR LATER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="price-details">
+            <h3 class="price-title">PRICE DETAILS</h3>
+            <div class="price-row">
+                <span class="price-label">Price (2 items)</span>
+                <span class="price-value">₹76,298</span>
+            </div>
+            <div class="price-row">
+                <span class="price-label">Discount</span>
+                <span class="price-value">-₹5,690</span>
+            </div>
+            <div class="price-row">
+                <span class="price-label">Delivery Charges</span>
+                <span class="price-value">FREE</span>
+            </div>
+            <div class="price-row total-price">
+                <span class="price-label">Total Amount</span>
+                <span class="price-value">₹70,608</span>
+            </div>
+            <p class="savings">You will save ₹5,690 on this order</p>
+            <button class="place-order-btn">PLACE ORDER</button>
+        </div>
+    </div>
+</body>
+</html>
